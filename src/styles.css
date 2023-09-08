@@ -31,7 +31,8 @@ body {
 }
 
 .img-responsive {
-  max-width: 100%;
+  width: 185px;
+  height: 175px;
   display: block;
 }
 
@@ -42,6 +43,15 @@ body {
 .card {
   background: white;
   margin-top: 50px;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.card-header.grid {
+  grid-gap: 0;
 }
 
 .card-body {
@@ -230,5 +240,13 @@ footer a {
 
   section {
     padding: 30px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
